@@ -25,8 +25,8 @@ Make sure you have the following installed on your local development environment
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/TaskManagerApp.git
-   cd TaskManagerApp
+   git clone https://github.com/deepprajapatineu/TaskManager.git
+   cd TaskManager
    ```
 
 2. **Install dependencies:**
