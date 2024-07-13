@@ -47,7 +47,7 @@ Make sure you have the following installed on your local development environment
 
 4. **Configure Firebase:**
 
-   Edit a file firebase.js in the config folder with your Firebase configuration:
+   Edit a file firebase.ts in the config folder with your Firebase configuration:
 
    ```bash
    import { initializeApp } from "firebase/app";
@@ -120,4 +120,4 @@ The app uses **React Navigation** for navigation between screens. The main navig
 
 ## Download
 You can download the latest APK from the link below:
-- Download [TaskManager APK](https://drive.google.com/file/d/1DXgexmlNoIUiHZOjAudsukcsSmTiUMIE/view?usp=drive_link)
+- Download [TaskManager APK](https://drive.google.com/file/d/17v6X7mHYTg82XPqL5KfUzyPPqucA7RYs/view?usp=drive_link)
