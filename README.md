@@ -37,3 +37,50 @@ Make sure you have the following installed on your local development environment
    ```bash
    git clone https://github.com/your-username/TaskManagerApp.git
    cd TaskManagerApp
+   ```
+
+2. **Install dependencies:**
+
+   Using npm:
+   ```bash
+   npm install
+   ```
+
+   Using yarn:
+   ```bash
+   yarn install
+   ```
+
+3. **Set up Firebase:**
+
+   Create a Firebase project and set up authentication and Firestore. Follow the Firebase documentation for setup: https://firebase.google.com/docs.
+
+4. **Configure Firebase:**
+
+   Edit a file firebase.js in the config folder with your Firebase configuration:
+
+   ```bash
+   import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+
+// Add your Firebase configuration here
+const firebaseConfig = {
+  apiKey: "xxxxx",
+  authDomain: "xxxxx",
+  projectId: "xxxxx",
+  storageBucket: "xxxxx",
+  messagingSenderId: "xxxxx",
+  appId: "xxxxx",
+  measurementId: "xxxxx",
+};
+
+// Initialize Firebase
+export const FIREBASE_APP = initializeApp(firebaseConfig);
+export const FIREBASE_AUTH = getAuth(FIREBASE_APP);
+export const FIREBASE_DB = getFirestore(FIREBASE_APP);
+export const FIREBASE_STORAGE = getStorage(FIREBASE_APP);
+export const analytics = getAnalytics(FIREBASE_APP);
+```
