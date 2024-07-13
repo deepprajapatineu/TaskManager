@@ -1,6 +1,6 @@
-# TaskManagerApp
+# TaskManager
 
-TaskManagerApp is a mobile application for managing tasks, viewing a leaderboard, and more. This app is built using React Native and Firebase.
+TaskManager is a mobile application for managing tasks, viewing a leaderboard, and more. This app is built using React Native and Firebase.
 
 ## Features
 
@@ -120,4 +120,4 @@ The app uses **React Navigation** for navigation between screens. The main navig
 
 ## Download
 You can download the latest APK from the link below:
-- Download [TaskManagerApp APK](https://drive.google.com/file/d/1DXgexmlNoIUiHZOjAudsukcsSmTiUMIE/view?usp=drive_link)
+- Download [TaskManager APK](https://drive.google.com/file/d/1DXgexmlNoIUiHZOjAudsukcsSmTiUMIE/view?usp=drive_link)
