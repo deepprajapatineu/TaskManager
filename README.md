@@ -6,7 +6,7 @@ TaskManagerApp is a mobile application for managing tasks, viewing a leaderboard
 
 - User authentication (Sign Up, Log In)
 - Task management (Add, Edit, View, Delete tasks)
-- Leaderboard to view top users
+- Leaderboard to view top users with task completion
 - Task details with additional information
 
 ## Installation
@@ -98,12 +98,12 @@ If you are using environment variables, ensure they are correctly set up in a '_
 - **Add Task**: Create new tasks.
 - **Edit Task**: Modify existing tasks.
 - **View Task Details**: View detailed information about tasks.
-- **Leaderboard**: View the leaderboard to see top users.
+- **Leaderboard**: View the leaderboard to see top users with task completion.
 
 ## Screens
 
 - **Home**: Main dashboard with task overview.
-- **Task**: Detailed view of tasks.
+- **Task**: Brief view of tasks list.
 - **Leaderboard**: View top users.
 - **AddTask**: Form to add a new task.
 - **EditTask**: Form to edit an existing task.
